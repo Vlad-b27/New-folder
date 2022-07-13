@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: argo-golangvlad-yaml
-  namespace: argocdvlad
 spec: 
  project: default
  source:
@@ -11,7 +10,7 @@ spec:
    path: argo
  destination:
     server: https://kubernetes.default.svc
-    namespace: argogolangyaml
+    namespace: argocd
  syncPolicy:
     syncOptions:
       - CreateNamespace=true

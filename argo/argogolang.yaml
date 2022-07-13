@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: argo-golangvlad-yaml
-  namespace: argocdvlad
 spec: 
  project: default
  source:
