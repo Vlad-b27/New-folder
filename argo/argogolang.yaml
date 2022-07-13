@@ -6,7 +6,7 @@ metadata:
 spec: 
  project: default
  source:
-   repoURL: https://github.com/Vlad-b27/argogolang.git
+   repoURL: https://github.com/Vlad-b27/New-folder.git
    targetRevision: main
    path: golang
  destination:
